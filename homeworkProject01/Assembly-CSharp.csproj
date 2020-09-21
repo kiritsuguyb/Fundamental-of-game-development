@@ -62,17 +62,17 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CountDown.cs" />
     <Compile Include="Assets\Script\Controller.cs" />
+    <Compile Include="Assets\Script\CountDown.cs" />
     <Compile Include="Assets\Script\Score.cs" />
+    <Compile Include="Assets\Script\ShowNumber.cs" />
+    <Compile Include="Assets\Script\ShowScore.cs" />
+    <Compile Include="Assets\Script\StopGame.cs" />
     <Compile Include="Assets\Script\TargetController.cs" />
     <Compile Include="Assets\Script\WhichPlayer.cs" />
     <Compile Include="Assets\Script\selfDestroy.cs" />
     <Compile Include="Assets\Script\spawnedObject.cs" />
     <Compile Include="Assets\Script\spawner.cs" />
-    <Compile Include="Assets\ShowNumber.cs" />
-    <Compile Include="Assets\ShowScore.cs" />
-    <Compile Include="Assets\StopGame.cs" />
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
