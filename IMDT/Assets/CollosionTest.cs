@@ -92,7 +92,7 @@ public class CollosionTest : MonoBehaviour
         {
             Debug.LogError("CollisionTest::Please do assign the wall objects references.");
         }
-        float xmin = left.transform.position.x+left.GetComponent<BoxCollider>().size.x / 2+0.5f;
+        float xmin = left.transform.position.x+left.GetComponent<BoxCollider>().size.x / 2+0.5f;//考虑墙体位置、墙体宽度、球体半径，其中球体半径为0.5f
         float xmax = right.transform.position.x- right.GetComponent<BoxCollider>().size.x/2-0.5f;
         float zmin = bottom.transform.position.z+bottom.GetComponent<BoxCollider>().size.z / 2+0.5f;
         float zmax = top.transform.position.z-top.GetComponent<BoxCollider>().size.z / 2-0.5f;
