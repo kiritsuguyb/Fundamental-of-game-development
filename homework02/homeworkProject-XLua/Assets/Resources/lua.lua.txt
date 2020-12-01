@@ -1,0 +1,13 @@
+print("this is lua")
+
+function Start()
+ print("This is Start")
+end
+
+function Update()
+ print("这是Update方法")
+end
+
+function helloWorld(uiText)
+    uiText.text="This is LUA Hello World!"
+end
